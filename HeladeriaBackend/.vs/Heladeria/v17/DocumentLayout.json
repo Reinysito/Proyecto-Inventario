@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\manue\\source\\repos\\Heladeria\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{29AF4770-8398-4A60-817A-3F8BA61AD6E9}|Heladeria\\Heladeria.csproj|c:\\users\\manue\\source\\repos\\heladeria\\heladeria\\models\\ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29AF4770-8398-4A60-817A-3F8BA61AD6E9}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\models\\ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29AF4770-8398-4A60-817A-3F8BA61AD6E9}|Heladeria\\Heladeria.csproj|c:\\users\\manue\\source\\repos\\heladeria\\heladeria\\models\\lote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29AF4770-8398-4A60-817A-3F8BA61AD6E9}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\models\\lote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29AF4770-8398-4A60-817A-3F8BA61AD6E9}|Heladeria\\Heladeria.csproj|c:\\users\\manue\\source\\repos\\heladeria\\heladeria\\models\\heladeriacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29AF4770-8398-4A60-817A-3F8BA61AD6E9}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\models\\heladeriacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29AF4770-8398-4A60-817A-3F8BA61AD6E9}|Heladeria\\Heladeria.csproj|c:\\users\\manue\\source\\repos\\heladeria\\heladeria\\models\\miapidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29AF4770-8398-4A60-817A-3F8BA61AD6E9}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\models\\miapidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29AF4770-8398-4A60-817A-3F8BA61AD6E9}|Heladeria\\Heladeria.csproj|c:\\users\\manue\\source\\repos\\heladeria\\heladeria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29AF4770-8398-4A60-817A-3F8BA61AD6E9}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29AF4770-8398-4A60-817A-3F8BA61AD6E9}|Heladeria\\Heladeria.csproj|c:\\users\\manue\\source\\repos\\heladeria\\heladeria\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{29AF4770-8398-4A60-817A-3F8BA61AD6E9}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29AF4770-8398-4A60-817A-3F8BA61AD6E9}|Heladeria\\Heladeria.csproj|c:\\users\\manue\\source\\repos\\heladeria\\heladeria\\controllers\\ventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29AF4770-8398-4A60-817A-3F8BA61AD6E9}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\controllers\\ventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29AF4770-8398-4A60-817A-3F8BA61AD6E9}|Heladeria\\Heladeria.csproj|c:\\users\\manue\\source\\repos\\heladeria\\heladeria\\controllers\\lotescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29AF4770-8398-4A60-817A-3F8BA61AD6E9}|Heladeria\\Heladeria.csproj|solutionrelative:heladeria\\controllers\\lotescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ventas.cs",
+              "DocumentMoniker": "C:\\Users\\manue\\source\\repos\\Heladeria\\Heladeria\\Models\\Ventas.cs",
+              "RelativeDocumentMoniker": "Heladeria\\Models\\Ventas.cs",
+              "ToolTip": "C:\\Users\\manue\\source\\repos\\Heladeria\\Heladeria\\Models\\Ventas.cs",
+              "RelativeToolTip": "Heladeria\\Models\\Ventas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-11T21:38:46.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VentasController.cs",
+              "DocumentMoniker": "C:\\Users\\manue\\source\\repos\\Heladeria\\Heladeria\\Controllers\\VentasController.cs",
+              "RelativeDocumentMoniker": "Heladeria\\Controllers\\VentasController.cs",
+              "ToolTip": "C:\\Users\\manue\\source\\repos\\Heladeria\\Heladeria\\Controllers\\VentasController.cs",
+              "RelativeToolTip": "Heladeria\\Controllers\\VentasController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwBYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T20:26:06.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HeladeriaContext.cs",
+              "DocumentMoniker": "C:\\Users\\manue\\source\\repos\\Heladeria\\Heladeria\\Models\\HeladeriaContext.cs",
+              "RelativeDocumentMoniker": "Heladeria\\Models\\HeladeriaContext.cs",
+              "ToolTip": "C:\\Users\\manue\\source\\repos\\Heladeria\\Heladeria\\Models\\HeladeriaContext.cs",
+              "RelativeToolTip": "Heladeria\\Models\\HeladeriaContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T20:25:17.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LotesController.cs",
+              "DocumentMoniker": "C:\\Users\\manue\\source\\repos\\Heladeria\\Heladeria\\Controllers\\LotesController.cs",
+              "RelativeDocumentMoniker": "Heladeria\\Controllers\\LotesController.cs",
+              "ToolTip": "C:\\Users\\manue\\source\\repos\\Heladeria\\Heladeria\\Controllers\\LotesController.cs",
+              "RelativeToolTip": "Heladeria\\Controllers\\LotesController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAUwDEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T00:51:31.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Lote.cs",
+              "DocumentMoniker": "C:\\Users\\manue\\source\\repos\\Heladeria\\Heladeria\\Models\\Lote.cs",
+              "RelativeDocumentMoniker": "Heladeria\\Models\\Lote.cs",
+              "ToolTip": "C:\\Users\\manue\\source\\repos\\Heladeria\\Heladeria\\Models\\Lote.cs",
+              "RelativeToolTip": "Heladeria\\Models\\Lote.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwCAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T22:10:16.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\manue\\source\\repos\\Heladeria\\Heladeria\\Program.cs",
+              "RelativeDocumentMoniker": "Heladeria\\Program.cs",
+              "ToolTip": "C:\\Users\\manue\\source\\repos\\Heladeria\\Heladeria\\Program.cs",
+              "RelativeToolTip": "Heladeria\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T17:30:27.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\manue\\source\\repos\\Heladeria\\Heladeria\\appsettings.json",
+              "RelativeDocumentMoniker": "Heladeria\\appsettings.json",
+              "ToolTip": "C:\\Users\\manue\\source\\repos\\Heladeria\\Heladeria\\appsettings.json",
+              "RelativeToolTip": "Heladeria\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-14T17:28:34.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MiApiDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\manue\\source\\repos\\Heladeria\\Heladeria\\Models\\MiApiDbContext.cs",
+              "RelativeDocumentMoniker": "Heladeria\\Models\\MiApiDbContext.cs",
+              "ToolTip": "C:\\Users\\manue\\source\\repos\\Heladeria\\Heladeria\\Models\\MiApiDbContext.cs",
+              "RelativeToolTip": "Heladeria\\Models\\MiApiDbContext.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAkwC4AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T17:22:45.934Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
