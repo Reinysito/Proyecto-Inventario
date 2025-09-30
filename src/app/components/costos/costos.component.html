@@ -1,0 +1,67 @@
+<form [formGroup]="Costosform" (ngSubmit)="guardarCostos()" class="form-card">
+  <h3>{{ editar ? 'Editar costos' : 'Nuevo costos' }}</h3>
+  
+ <div class="form-group">
+    <label>Lote</label>
+    <select formControlName="LoteId" class="form-control">
+      <option *ngFor="let p of Lotes" [value]="p.loteId">
+        {{ p.descripcion }}
+      </option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label>Descripcion</label>
+    <input type="text" class="form-control" formControlName="Descripcion" placeholder="Ingrese Descripcion" />
+  </div>
+
+  <div class="form-group">
+    <label>Monto</label>
+    <input type="number" class="form-control" formControlName="Monto" placeholder="Ingrese el monto" />
+  </div>
+
+  <button type="submit" class="btn btn-success">
+    {{ editar ? 'Actualizar costos' : 'Agregar costos' }}
+  </button>
+  <button type="button" class="btn btn-secondary cancel" (click)="resetformulario()">Cancelar</button>
+</form>
+
+<!-- Buscador -->
+<div class="mt-4 card shadow-sm">
+    <div class="card-header bg-secondary text-white">
+      <div class="d-flex justify-content-between align-items-center">
+        <span>Listado de costos</span>
+        <div class="input-group w-50">
+          <input type="text" class="form-control" [(ngModel)]='searchInput' placeholder="Buscar por ID" />
+          <button class="btn btn-outline-light" (click)="buscarCostos()">Buscar</button>
+          <button class="btn btn-outline-light ms-2" (click)="limpiarBusqueda()">Limpiar</button>
+        </div>
+      </div>
+    </div>
+
+<!-- Tabla de Costos -->
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>costosId</th>
+      <th>LoteId</th>
+      <th>Descripcion</th>
+      <th>Monto</th>
+      <th>Fecha</th>
+      <th>Acciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let costos of CostosFiltrados">
+      <td>{{ costos.costoId }}</td>
+      <td>{{ costos.loteId }}</td>
+      <td>{{ costos.descripcion }}</td>
+      <td>{{ costos.monto }}</td>
+      <td>{{ costos.fecha}}</td>
+      <td>
+        <button class="btn btn-warning btn-sm" (click)="editarCostos(costos)">Editar</button>
+        <button class="btn btn-danger btn-sm" (click)="EliminarCostos(costos.costoId)">Eliminar</button>
+      </td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,71 @@
+<form [formGroup]="Transaccionesform" (ngSubmit)="guardarTransacciones()" class="form-card">
+  <h3>{{ editar ? 'Editar Transacciones' : 'Nuevo Transacciones' }}</h3>
+  
+ <div class="form-group">
+    <label>Lotes</label>
+    <select formControlName="LoteId" class="form-control">
+      <option *ngFor="let p of Lotes" [value]="p.LoteId">
+        {{ p.descripcion }}
+      </option>
+    </select>
+  </div>
+
+ <div class="form-group">
+    <label>Socio</label>
+    <select formControlName="SocioId" class="form-control">
+      <option *ngFor="let p of Socio" [value]="p.SocioId">
+        {{ p.descripcion }}
+      </option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label>Monto</label>
+    <input type="number" class="form-control" formControlName="Monto" placeholder="Ingrese el monto" />
+  </div>
+
+  <button type="submit" class="btn btn-success">
+    {{ editar ? 'Actualizar Transacciones' : 'Agregar Transacciones' }}
+  </button>
+  <button type="button" class="btn btn-secondary cancel" (click)="resetformulario()">Cancelar</button>
+</form>
+
+<!-- Buscador -->
+<div class="mt-4 card shadow-sm">
+    <div class="card-header bg-secondary text-white">
+      <div class="d-flex justify-content-between align-items-center">
+        <span>Listado de Transacciones</span>
+        <div class="input-group w-50">
+          <input type="text" class="form-control" [(ngModel)]='searchInput' placeholder="Buscar por ID" />
+          <button class="btn btn-outline-light" (click)="buscarTransacciones()">Buscar</button>
+          <button class="btn btn-outline-light ms-2" (click)="limpiarBusqueda()">Limpiar</button>
+        </div>
+      </div>
+    </div>
+
+<!-- Tabla de Transacciones -->
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>TransaccionesId</th>
+      <th>Lote</th>
+      <th>Socio</th>
+      <th>Monto</th>
+      <th>Fecha</th>
+      <th>Acciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let Transacciones of TransaccionesFiltrados">
+      <td>{{ Transacciones.TransaccionesId }}</td>
+      <td>{{ Transacciones.loteId }}</td>
+      <td>{{ Transacciones.socioId }}</td>
+      <td>{{ Transacciones.Transacciones }}</td>
+      <td>{{ Transacciones.fecha}}</td>
+      <td>
+        <button class="btn btn-warning btn-sm" (click)="editarTransacciones(Transacciones)">Editar</button>
+        <button class="btn btn-danger btn-sm" (click)="EliminarTransacciones(Transacciones.TransaccionesId)">Eliminar</button>
+      </td>
+    </tr>
+  </tbody>
+</table>

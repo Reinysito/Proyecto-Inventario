@@ -1,0 +1,33 @@
+<div class="venta-container">
+  <div class="venta-card">
+    <h2>📦 Registrar Venta</h2>
+
+    <div class="form-group">
+      <label for="lote">Lote:</label>
+      <select id="lote" [(ngModel)]="venta.loteId" class="form-control">
+        <option [ngValue]="0" disabled>-- Seleccione un lote --</option>
+        <option *ngFor="let lote of lotes" [value]="lote.loteId">
+          {{ lote.descripcion }}
+        </option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="cantidad">Cantidad de Helados:</label>
+      <input id="cantidad" type="number" [(ngModel)]="venta.cantidadHelados" class="form-control">
+    </div>
+
+    <div class="form-group">
+      <label for="precio">Precio Unitario:</label>
+      <input id="precio" type="number" [(ngModel)]="venta.precioUnitario" class="form-control">
+    </div>
+
+    <div class="total-preview">
+      <strong>Total:</strong> {{ venta.cantidadHelados * venta.precioUnitario | currency:'USD':'symbol' }}
+    </div>
+
+    <button class="btn-registrar" (click)="registrarVentaCompleta()">
+      💾 Registrar Venta
+    </button>
+  </div>
+</div>

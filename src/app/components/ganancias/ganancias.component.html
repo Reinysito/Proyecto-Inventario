@@ -1,0 +1,51 @@
+<div class="container mt-4">
+  <h2>Ganancias por Lote</h2>
+
+  <!-- Filtro de fechas -->
+  <div class="row mb-3">
+    <div class="col-md-3">
+      <label for="fechaInicio">Fecha Inicio:</label>
+      <input type="date" id="fechaInicio" class="form-control" [(ngModel)]="fechaInicio" (change)="filtrarGanancias()">
+    </div>
+    <div class="col-md-3">
+      <label for="fechaFin">Fecha Fin:</label>
+      <input type="date" id="fechaFin" class="form-control" [(ngModel)]="fechaFin" (change)="filtrarGanancias()">
+    </div>
+  </div>
+
+  <!-- Tabla de Ganancias -->
+  <table class="table table-striped table-bordered mt-3">
+    <thead class="table-dark">
+      <tr>
+        <th>Lote</th>
+        <th>Fecha Primera Venta</th>
+        <th>Fecha Última Venta</th>
+        <th>Ventas Totales</th>
+        <th>Costos Totales</th>
+        <th>Ganancia</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let g of gananciasFiltradas">
+        <td>{{ g.lote }}</td>
+        <td>{{ g.fechaPrimeraVenta | date:'shortDate' }}</td>
+        <td>{{ g.fechaUltimaVenta | date:'shortDate' }}</td>
+        <td>{{ g.ventasTotales | currency:'USD' }}</td>
+        <td>{{ g.costosTotales | currency:'USD' }}</td>
+        <td [ngClass]="{'text-success': g.ganancia > 0, 'text-danger': g.ganancia < 0}">
+          {{ g.ganancia | currency:'USD' }}
+        </td>
+      </tr>
+
+      <!-- Fila de Totales -->
+      <tr class="table-secondary fw-bold">
+        <td>Total</td>
+        <td>-</td>
+        <td>-</td>
+        <td>{{ totalVentas | currency:'USD' }}</td>
+        <td>{{ totalCostos | currency:'USD' }}</td>
+        <td>{{ totalGanancia | currency:'USD' }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

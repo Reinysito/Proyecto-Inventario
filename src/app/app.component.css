@@ -1,0 +1,14 @@
+.navbar {
+  background: #343a40;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+}
+.nav-btn {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+.nav-btn:hover {
+  color: #00aced;
+}

@@ -1,0 +1,175 @@
+::ng-deep body {
+  background: #1f2c3a;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+/* Contenedor general centrado */
+::ng-deep .form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
+
+/* Tarjeta del formulario con efecto glass */
+::ng-deep .form-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  padding: 30px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(12px);
+  color: white;
+  margin: 20px auto;
+}
+
+/* Título del formulario */
+::ng-deep .form-card h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+/* Inputs y selects */
+::ng-deep .form-card input,
+::ng-deep .form-card select {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  outline: none;
+  font-size: 14px;
+}
+
+/* Placeholder */
+::ng-deep .form-card input::placeholder,
+::ng-deep .form-card select option {
+  color: #ccc;
+}
+
+/* Botones principales */
+::ng-deep .form-card button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background: linear-gradient(to right, #0062e6, #33aeff);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+::ng-deep .form-card button:hover {
+  background: linear-gradient(to right, #0050c1, #289be0);
+}
+
+/* Botón cancelar */
+::ng-deep .form-card .cancel {
+  background: #555;
+  margin-top: 10px;
+}
+
+::ng-deep .form-card .cancel:hover {
+  background: #777;
+}
+
+/* Tabla blanca centrada */
+::ng-deep table {
+  width: 100%;
+  border-collapse: collapse;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.03);
+  margin: 20px auto;
+  max-width: 900px;
+}
+
+::ng-deep table thead {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+::ng-deep table th,
+::ng-deep table td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Botones dentro de la tabla */
+::ng-deep .btn-warning,
+::ng-deep .btn-danger {
+  font-size: 12px;
+  padding: 6px 10px;
+  border-radius: 8px;
+}
+
+::ng-deep .btn-warning {
+  background-color: #ffc107;
+  color: #000;
+  border: none;
+}
+
+::ng-deep .btn-danger {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+}
+
+/* Fondo estilo glass para el buscador */
+::ng-deep .search-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(12px);
+  color: white;
+  width: 100%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Input y botones del buscador */
+::ng-deep .search-card .form-control {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: none;
+  border-radius: 10px 0 0 10px;
+}
+
+::ng-deep .search-card .form-control::placeholder {
+  color: #ccc;
+}
+
+::ng-deep .search-card .btn-primary {
+  background: linear-gradient(to right, #0062e6, #33aeff);
+  border: none;
+  color: white;
+  border-radius: 0 10px 10px 0;
+}
+
+::ng-deep .search-card .btn-primary:hover {
+  background: linear-gradient(to right, #0050c1, #289be0);
+}
+
+::ng-deep .search-card .btn-secondary {
+  background: #555;
+  border: none;
+  margin-left: 5px;
+  border-radius: 10px;
+  color: white;
+}
+
+::ng-deep .search-card .btn-secondary:hover {
+  background: #777;
+}
